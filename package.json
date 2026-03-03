@@ -1,0 +1,25 @@
+{
+  "name": "marko-context-flow",
+  "version": "1.0.0",
+  "description": "Project context aggregator for LLMs",
+  "main": "index.js",
+  "bin": {
+    "mcf": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "ignore": "^5.2.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Marko Ecosystem",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.8.1",
+    "rcedit": "^5.0.2"
+  }
+}
